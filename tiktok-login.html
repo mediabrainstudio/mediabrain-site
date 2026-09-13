@@ -1,1 +1,26 @@
-﻿<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Connexion TikTok - MediaBrain</title></head><body><main><h1>Connexion TikTok</h1><p>Cette page servira à lancer la connexion TikTok de MediaBrain en environnement de test.</p></main></body></html>
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connexion TikTok - MediaBrain</title>
+  <style>
+    body{margin:0;font-family:Arial,sans-serif;background:#0d0d0f;color:#fff;display:flex;align-items:center;justify-content:center;min-height:100vh}
+    .card{max-width:520px;padding:40px;border:1px solid #333;border-radius:16px;background:#151519;text-align:center}
+    h1{margin-top:0}
+    p{color:#cfcfcf;line-height:1.6}
+    .btn{display:inline-block;margin-top:24px;padding:14px 22px;border-radius:10px;background:#fe2c55;color:#fff;text-decoration:none;font-weight:bold}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Connexion TikTok</h1>
+    <p>Connecte ton compte TikTok autorisé pour utiliser MediaBrain en environnement de test.</p>
+
+    <a class="btn"
+       href="https://www.tiktok.com/v2/auth/authorize/?client_key=sbawczaxjggs7nypoy&scope=user.info.basic%2Cvideo.upload&response_type=code&redirect_uri=https%3A%2F%2Fmediabrainstudio.github.io%2Fmediabrain-site%2Ftiktok-callback.html&state=mediabrain-sandbox">
+      Continuer avec TikTok
+    </a>
+  </main>
+</body>
+</html>
